@@ -1,0 +1,220 @@
+2	2
+2	sausage
+2	london
+2	San Francisco
+2	1
+2	paris
+2	5
+2	horse
+2	tea
+2	munich
+2	4
+2	bread
+2	seoul
+2	3
+2	flowers
+sausage	2
+sausage	sausage
+sausage	london
+sausage	San Francisco
+sausage	1
+sausage	paris
+sausage	5
+sausage	horse
+sausage	tea
+sausage	4
+sausage	bread
+sausage	seoul
+sausage	3
+sausage	flowers
+london	2
+london	sausage
+london	london
+london	San Francisco
+london	1
+london	paris
+london	5
+london	horse
+london	tea
+london	munich
+london	4
+london	bread
+london	seoul
+london	3
+london	flowers
+San Francisco	2
+San Francisco	sausage
+San Francisco	london
+San Francisco	San Francisco
+San Francisco	1
+San Francisco	paris
+San Francisco	5
+San Francisco	horse
+San Francisco	tea
+San Francisco	munich
+San Francisco	4
+San Francisco	bread
+San Francisco	seoul
+San Francisco	3
+San Francisco	flowers
+1	2
+1	sausage
+1	london
+1	San Francisco
+1	1
+1	paris
+1	5
+1	horse
+1	tea
+1	munich
+1	4
+1	bread
+1	seoul
+1	3
+1	flowers
+paris	2
+paris	sausage
+paris	london
+paris	San Francisco
+paris	1
+paris	paris
+paris	5
+paris	horse
+paris	tea
+paris	munich
+paris	4
+paris	bread
+paris	seoul
+paris	3
+paris	flowers
+5	2
+5	sausage
+5	london
+5	San Francisco
+5	1
+5	paris
+5	5
+5	horse
+5	tea
+5	munich
+5	4
+5	bread
+5	seoul
+5	3
+5	flowers
+horse	2
+horse	sausage
+horse	london
+horse	San Francisco
+horse	1
+horse	paris
+horse	5
+horse	horse
+horse	tea
+horse	munich
+horse	4
+horse	bread
+horse	3
+horse	flowers
+tea	2
+tea	sausage
+tea	San Francisco
+tea	1
+tea	paris
+tea	5
+tea	horse
+tea	tea
+tea	munich
+tea	4
+tea	bread
+tea	seoul
+tea	3
+tea	flowers
+munich	2
+munich	sausage
+munich	london
+munich	San Francisco
+munich	1
+munich	paris
+munich	5
+munich	horse
+munich	tea
+munich	munich
+munich	4
+munich	bread
+munich	seoul
+munich	3
+munich	flowers
+4	2
+4	sausage
+4	london
+4	San Francisco
+4	1
+4	paris
+4	5
+4	horse
+4	tea
+4	munich
+4	4
+4	bread
+4	seoul
+4	3
+4	flowers
+bread	2
+bread	sausage
+bread	london
+bread	San Francisco
+bread	1
+bread	5
+bread	horse
+bread	tea
+bread	munich
+bread	4
+bread	bread
+bread	seoul
+bread	3
+bread	flowers
+seoul	2
+seoul	sausage
+seoul	london
+seoul	San Francisco
+seoul	1
+seoul	paris
+seoul	5
+seoul	horse
+seoul	tea
+seoul	munich
+seoul	4
+seoul	bread
+seoul	seoul
+seoul	3
+seoul	flowers
+3	2
+3	sausage
+3	london
+3	San Francisco
+3	1
+3	paris
+3	5
+3	horse
+3	tea
+3	munich
+3	4
+3	bread
+3	seoul
+3	3
+3	flowers
+flowers	2
+flowers	sausage
+flowers	london
+flowers	1
+flowers	paris
+flowers	5
+flowers	horse
+flowers	tea
+flowers	munich
+flowers	4
+flowers	bread
+flowers	seoul
+flowers	3
+flowers	flowers

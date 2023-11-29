@@ -1,0 +1,110 @@
+cmake_minimum_required(VERSION 3.16)
+project(synthesis_benchmarks)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_subdirectory(regular/1-call-site)
+add_subdirectory(regular/1-object)
+add_subdirectory(regular/1-object-1-type)
+add_subdirectory(regular/1-type)
+add_subdirectory(regular/2-call-site)
+add_subdirectory(regular/abduce)
+add_subdirectory(regular/andersen)
+add_subdirectory(regular/animals)
+add_subdirectory(regular/buildwall)
+add_subdirectory(regular/cliquer)
+add_subdirectory(regular/downcast)
+add_subdirectory(regular/escape)
+add_subdirectory(regular/inflammation)
+add_subdirectory(regular/modref)
+add_subdirectory(regular/nearlyscc)
+add_subdirectory(regular/path)
+add_subdirectory(regular/polysite)
+add_subdirectory(regular/rsg)
+add_subdirectory(regular/rvcheck)
+add_subdirectory(regular/scc)
+add_subdirectory(regular/sgen)
+add_subdirectory(regular/ship)
+add_subdirectory(regular/small)
+add_subdirectory(regular/sql-01)
+add_subdirectory(regular/sql-02)
+add_subdirectory(regular/sql-03)
+add_subdirectory(regular/sql-04)
+add_subdirectory(regular/sql-05)
+add_subdirectory(regular/sql-06)
+add_subdirectory(regular/sql-07)
+add_subdirectory(regular/sql-08)
+add_subdirectory(regular/sql-09)
+add_subdirectory(regular/sql-10)
+add_subdirectory(regular/sql-11)
+add_subdirectory(regular/sql-12)
+add_subdirectory(regular/sql-13)
+add_subdirectory(regular/sql-14)
+add_subdirectory(regular/sql-15)
+add_subdirectory(regular/traffic)
+add_subdirectory(regular/union-find)
+
+add_custom_target(regular)
+add_dependencies(regular 
+	1-call-site
+	1-object
+	1-object-1-type
+	1-type
+	2-call-site
+	abduce
+	andersen
+	animals
+	buildwall
+	cliquer
+	downcast
+	escape
+	inflammation
+	modref
+	nearlyscc
+	path
+	polysite
+	rsg
+	rvcheck
+	scc
+	sgen
+	ship
+	small
+	sql-01
+	sql-02
+	sql-03
+	sql-04
+	sql-05
+	sql-06
+	sql-07
+	sql-08
+	sql-09
+	sql-10
+	sql-11
+	sql-12
+	sql-13
+	sql-14
+	sql-15
+	traffic
+  union-find)
+
+add_subdirectory(scale/scc-100x-100)
+add_subdirectory(scale/scc-100x-1000)
+add_subdirectory(scale/scc-100x-500)
+add_subdirectory(scale/scc-10x-100)
+add_subdirectory(scale/scc-10x-1000)
+add_subdirectory(scale/scc-10x-500)
+add_subdirectory(scale/scc-1x-100)
+add_subdirectory(scale/scc-1x-1000)
+add_subdirectory(scale/scc-1x-500)
+
+add_custom_target(scale)
+add_dependencies(scale 
+	scc-100x-100
+	scc-100x-1000
+	scc-100x-500
+	scc-10x-100
+	scc-10x-1000
+	scc-10x-500
+	scc-1x-100
+	scc-1x-1000
+	scc-1x-500)
