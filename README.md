@@ -4,7 +4,7 @@ This repo contains ASPSynth-Clingo, the best-performing Datalog synthesis tool f
 
 It also contains the benchmarks we used, which, as described in the paper, are based on benchmarks from prior work.
 
-The only dependencies are Python and the answer set programming (ASP) solver Clingo (the `clingo` binary needs to be on your path).
+The only dependencies are Python and the answer set programming (ASP) solver [Clingo](https://potassco.org/clingo/) (the `clingo` binary needs to be on your path).
 
 You run ASPSynth-Clingo on a benchmark directory:
 
