@@ -22,4 +22,4 @@ python src/aspsynth-clingo benchmarks/scale/scc-100x-100 --minimize rules --para
 
 (We used 32 threads on the scaling benchmarks in our evaluation.)
 
-The additional tools described in the paper are available in the official paper artifact (available [here](https://zenodo.org/records/7150677)).
+The additional tools described in the paper and our full experimental setup are available in the official paper artifact (available [here](https://zenodo.org/records/7150677)).
